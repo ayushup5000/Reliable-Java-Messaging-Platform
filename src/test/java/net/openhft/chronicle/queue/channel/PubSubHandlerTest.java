@@ -96,6 +96,7 @@ public class PubSubHandlerTest extends QueueTestCommon {
         } catch (UnsupportedOperationException uos) {
             assumeFalse(url.startsWith("internal"));
         }
+        IOTools.deleteDirWithFiles(tmpDir);
     }
 
     interface PubSubSays extends PubSub {
