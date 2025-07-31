@@ -30,15 +30,16 @@ import java.util.NavigableSet;
 public class WireStorePool extends SimpleCloseable {
     @NotNull
     private final WireStoreSupplier supplier;
+    @NotNull
     private final StoreFileListener storeFileListener;
 
-    private WireStorePool(@NotNull WireStoreSupplier supplier, StoreFileListener storeFileListener) {
+    private WireStorePool(@NotNull WireStoreSupplier supplier, @NotNull StoreFileListener storeFileListener) {
         this.supplier = supplier;
         this.storeFileListener = storeFileListener;
     }
 
     @NotNull
-    public static WireStorePool withSupplier(@NotNull WireStoreSupplier supplier, StoreFileListener storeFileListener) {
+    public static WireStorePool withSupplier(@NotNull WireStoreSupplier supplier, @NotNull StoreFileListener storeFileListener) {
         return new WireStorePool(supplier, storeFileListener);
     }
 

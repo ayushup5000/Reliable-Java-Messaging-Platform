@@ -22,6 +22,7 @@ import net.openhft.chronicle.core.Jvm;
 import net.openhft.chronicle.queue.ChronicleQueue;
 import net.openhft.chronicle.queue.ExcerptTailer;
 import net.openhft.chronicle.queue.TailerDirection;
+import net.openhft.chronicle.queue.impl.StoreFileListener;
 import net.openhft.chronicle.queue.impl.single.BinarySearch;
 import net.openhft.chronicle.queue.impl.single.NotComparableException;
 import net.openhft.chronicle.queue.impl.single.SingleChronicleQueueBuilder;
@@ -49,7 +50,6 @@ import java.util.regex.Pattern;
 
 import static net.openhft.chronicle.queue.TailerDirection.BACKWARD;
 import static net.openhft.chronicle.queue.TailerDirection.FORWARD;
-import static net.openhft.chronicle.queue.impl.StoreFileListener.NO_OP;
 
 public class ChronicleReader implements Reader {
     private static final long UNSET_VALUE = Long.MIN_VALUE;
@@ -534,7 +534,7 @@ public class ChronicleReader implements Reader {
         return SingleChronicleQueueBuilder
                 .binary(basePath.toFile())
                 .readOnly(readOnly)
-                .storeFileListener(NO_OP)
+                .storeFileListener(StoreFileListener.noOp())
                 .build();
     }
 

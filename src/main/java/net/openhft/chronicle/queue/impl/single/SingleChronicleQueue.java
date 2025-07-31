@@ -128,6 +128,7 @@ public class SingleChronicleQueue extends AbstractCloseable implements RollingCh
     @NotNull
     private final RollingResourcesCache dateCache;
     private final WriteLock appendLock;
+    @NotNull
     private final StoreFileListener storeFileListener;
     @NotNull
     private final RollCycle rollCycle;
