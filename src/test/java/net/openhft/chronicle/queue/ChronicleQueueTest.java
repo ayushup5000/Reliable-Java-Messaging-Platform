@@ -157,11 +157,6 @@ public class ChronicleQueueTest extends QueueTestCommon {
         }
 
         @Override
-        public @NotNull ExcerptAppender acquireAppender() {
-            return null;
-        }
-
-        @Override
         public @NotNull ExcerptAppender createAppender() {
             return null;
         }
