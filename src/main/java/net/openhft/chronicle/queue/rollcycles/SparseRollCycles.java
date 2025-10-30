@@ -27,8 +27,7 @@ public enum SparseRollCycles implements RollCycle {
     /**
      * 0xffffffffffff entries per day with super-sparse indexing (every (2^20)th entry)
      */
-    HUGE_DAILY_XSPARSE("yyyyMMdd'HX'", 24 * 60 * 60 * 1000, 16 << 10, 1 << 20),
-    ;
+    HUGE_DAILY_XSPARSE("yyyyMMdd'HX'", 24 * 60 * 60 * 1000, 16 << 10, 1 << 20);
 
     private final String format;
     private final int lengthInMillis;
@@ -37,10 +36,10 @@ public enum SparseRollCycles implements RollCycle {
     /**
      * Constructs a SparseRollCycle with the given parameters.
      *
-     * @param format          The format string used for rolling files
-     * @param lengthInMillis  The duration of each cycle in milliseconds
-     * @param indexCount      The number of index entries
-     * @param indexSpacing    The spacing between indexed entries
+     * @param format         The format string used for rolling files
+     * @param lengthInMillis The duration of each cycle in milliseconds
+     * @param indexCount     The number of index entries
+     * @param indexSpacing   The spacing between indexed entries
      */
     SparseRollCycles(String format, int lengthInMillis, int indexCount, int indexSpacing) {
         this.format = format;

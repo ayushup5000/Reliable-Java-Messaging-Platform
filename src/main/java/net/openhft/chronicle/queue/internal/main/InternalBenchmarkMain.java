@@ -196,10 +196,7 @@ public class InternalBenchmarkMain {
                 return;
             }
         }*/
-        if (counter > 0)
-            Jvm.safepoint();
-        else
-            Jvm.safepoint();
+        Jvm.safepoint();
         counter = 0;
         try (DocumentContext dc = tailer.readingDocument(false)) {
             Jvm.safepoint();

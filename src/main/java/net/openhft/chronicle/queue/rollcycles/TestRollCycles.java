@@ -40,8 +40,7 @@ public enum TestRollCycles implements RollCycle {
     /**
      * 0x20000 entries per day - Only good for testing
      */
-    TEST8_DAILY(/*-----*/"yyyyMMdd'T8'", 24 * 60 * 60 * 1000, 128, 8),
-    ;
+    TEST8_DAILY(/*-----*/"yyyyMMdd'T8'", 24 * 60 * 60 * 1000, 128, 8);
 
     private final String format;
     private final int lengthInMillis;
@@ -50,10 +49,10 @@ public enum TestRollCycles implements RollCycle {
     /**
      * Constructs a TestRollCycle with the given parameters.
      *
-     * @param format          The format string used for rolling files
-     * @param lengthInMillis  The duration of each cycle in milliseconds
-     * @param indexCount      The number of index entries
-     * @param indexSpacing    The spacing between indexed entries
+     * @param format         The format string used for rolling files
+     * @param lengthInMillis The duration of each cycle in milliseconds
+     * @param indexCount     The number of index entries
+     * @param indexSpacing   The spacing between indexed entries
      */
     TestRollCycles(String format, int lengthInMillis, int indexCount, int indexSpacing) {
         this.format = format;

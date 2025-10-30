@@ -68,7 +68,7 @@ import static net.openhft.chronicle.wire.Wires.acquireBytesScoped;
  * SingleChronicleQueue is an implementation of RollingChronicleQueue that supports appending
  * and reading of data from a file-based queue with roll cycles. This class is responsible
  * for managing the lifecycle, rolling logic, and the underlying storage.
- *
+ * <p>
  * It also supports various configurations such as event loop handling, wire types, buffer
  * management, and replication.
  */
@@ -474,7 +474,7 @@ public class SingleChronicleQueue extends AbstractCloseable implements RollingCh
      * Dumps the contents of the queue from a given index range into a Writer.
      * If there are no more messages in the queue or the target index is beyond the range, it terminates the dump.
      *
-     * @param writer   the Writer to output the queue contents to
+     * @param writer    the Writer to output the queue contents to
      * @param fromIndex the starting index from where to dump
      * @param toIndex   the ending index where the dump should stop
      */
@@ -821,10 +821,10 @@ public class SingleChronicleQueue extends AbstractCloseable implements RollingCh
      * The store is acquired from the pool, and if createIfAbsent is true, a new store
      * is created if it doesn't already exist.
      *
-     * @param cycle the cycle for which to acquire the store
-     * @param epoch the epoch time
+     * @param cycle          the cycle for which to acquire the store
+     * @param epoch          the epoch time
      * @param createIfAbsent whether to create a store if it doesn't exist
-     * @param oldStore the previous store, if available
+     * @param oldStore       the previous store, if available
      * @return the acquired or created SingleChronicleQueueStore, or null if unavailable
      */
     @Nullable
@@ -838,7 +838,7 @@ public class SingleChronicleQueue extends AbstractCloseable implements RollingCh
     /**
      * Returns the next cycle in the specified direction.
      *
-     * @param cycle the current cycle
+     * @param cycle     the current cycle
      * @param direction the direction (forward or backward) in which to find the next cycle
      * @return the next cycle
      * @throws ParseException if there is an error parsing cycle data
@@ -1346,7 +1346,7 @@ public class SingleChronicleQueue extends AbstractCloseable implements RollingCh
      * @return the BytesStore representation of the key
      */
     @SuppressWarnings("unchecked")
-    private BytesStore<?,Void> asBytes(CharSequence key, Bytes<Void> bytes) {
+    private BytesStore<?, Void> asBytes(CharSequence key, Bytes<Void> bytes) {
         return key instanceof BytesStore
                 ? ((BytesStore<?, Void>) key)
                 : bytes.append(key);
@@ -1406,7 +1406,7 @@ public class SingleChronicleQueue extends AbstractCloseable implements RollingCh
          * @param cycle          the cycle to acquire the store for
          * @param createStrategy the strategy for creating or reading the store
          * @return the acquired SingleChronicleQueueStore or null if the store doesn't exist and the strategy is not CREATE
-         * @throws IOException in case of IO errors
+         * @throws IOException      in case of IO errors
          * @throws TimeoutException if acquiring the store times out
          */
         @Override
@@ -1755,7 +1755,7 @@ public class SingleChronicleQueue extends AbstractCloseable implements RollingCh
          * Converts a cycle number to a key used in the cycle tree.
          *
          * @param cyle the cycle number
-         * @param m the label to use in case of an error
+         * @param m    the label to use in case of an error
          * @return the key for the cycle tree
          */
         private Long toKey(int cyle, String m) {

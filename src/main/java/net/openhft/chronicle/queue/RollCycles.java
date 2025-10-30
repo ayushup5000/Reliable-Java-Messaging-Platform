@@ -17,7 +17,10 @@ package net.openhft.chronicle.queue;
 
 import net.openhft.chronicle.queue.rollcycles.*;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 import java.util.stream.Collectors;
 
 /**
@@ -64,8 +67,7 @@ public enum RollCycles implements RollCycle {
     /**
      * 0xffffffff entries per week, indexing every 256th entry, leave as 4K and 256 for historical reasons. Cycle starts Sunday 00:00
      */
-    WEEKLY(/*-----------*/"YYYY'W'ww", 7 * 24 * 60 * 60 * 1000, 4 << 10, 256, RollCycleArithmetic.SUNDAY_00_00),
-    ;
+    WEEKLY(/*-----------*/"YYYY'W'ww", 7 * 24 * 60 * 60 * 1000, 4 << 10, 256, RollCycleArithmetic.SUNDAY_00_00);
     public static final RollCycles DEFAULT = FAST_DAILY;
 
     // don't alter this or you will confuse yourself.
@@ -91,6 +93,7 @@ public enum RollCycles implements RollCycle {
     RollCycles(String format, int lengthInMillis, int indexCount, int indexSpacing) {
         this(format, lengthInMillis, indexCount, indexSpacing, 0);
     }
+
     RollCycles(String format, int lengthInMillis, int indexCount, int indexSpacing, int defaultEpoch) {
         this.format = format;
         this.lengthInMillis = lengthInMillis;

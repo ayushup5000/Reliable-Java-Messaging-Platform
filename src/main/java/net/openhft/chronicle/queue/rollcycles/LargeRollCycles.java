@@ -27,8 +27,7 @@ public enum LargeRollCycles implements RollCycle {
     /**
      * 0xffffffffffff entries per day with sparse indexing (every 1024th entry)
      */
-    HUGE_DAILY(/*------*/"yyyyMMdd'H'", 24 * 60 * 60 * 1000, MAX_INDEX_COUNT, 1024),
-    ;
+    HUGE_DAILY(/*------*/"yyyyMMdd'H'", 24 * 60 * 60 * 1000, MAX_INDEX_COUNT, 1024);
 
     private final String format;
     private final int lengthInMillis;
@@ -37,10 +36,10 @@ public enum LargeRollCycles implements RollCycle {
     /**
      * Constructs a LargeRollCycle with the given parameters.
      *
-     * @param format          The format string used for rolling files
-     * @param lengthInMillis  The duration of each cycle in milliseconds
-     * @param indexCount      The number of index entries
-     * @param indexSpacing    The spacing between indexed entries
+     * @param format         The format string used for rolling files
+     * @param lengthInMillis The duration of each cycle in milliseconds
+     * @param indexCount     The number of index entries
+     * @param indexSpacing   The spacing between indexed entries
      */
     LargeRollCycles(String format, int lengthInMillis, int indexCount, int indexSpacing) {
         this.format = format;

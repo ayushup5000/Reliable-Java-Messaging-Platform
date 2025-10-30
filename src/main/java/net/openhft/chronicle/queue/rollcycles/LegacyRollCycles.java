@@ -23,8 +23,7 @@ public enum LegacyRollCycles implements RollCycle {
     /**
      * 0xffffffff entries per day, indexing every 64th entry, leave as 8K and 64 for historical reasons.
      */
-    DAILY(/*-----------*/"yyyyMMdd", 24 * 60 * 60 * 1000, 8 << 10, 64),
-    ;
+    DAILY(/*-----------*/"yyyyMMdd", 24 * 60 * 60 * 1000, 8 << 10, 64);
 
     private final String format;
     private final int lengthInMillis;
@@ -33,10 +32,10 @@ public enum LegacyRollCycles implements RollCycle {
     /**
      * Constructs a LegacyRollCycle with the given parameters.
      *
-     * @param format          The format string used for rolling files
-     * @param lengthInMillis  The duration of each cycle in milliseconds
-     * @param indexCount      The number of index entries
-     * @param indexSpacing    The spacing between indexed entries
+     * @param format         The format string used for rolling files
+     * @param lengthInMillis The duration of each cycle in milliseconds
+     * @param indexCount     The number of index entries
+     * @param indexSpacing   The spacing between indexed entries
      */
     LegacyRollCycles(String format, int lengthInMillis, int indexCount, int indexSpacing) {
         this.format = format;
