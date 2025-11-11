@@ -3,7 +3,6 @@
  */
 package net.openhft.chronicle.queue.harness;
 
-
 import net.openhft.chronicle.queue.RollCycle;
 import net.openhft.chronicle.queue.rollcycles.RollCycleArithmetic;
 

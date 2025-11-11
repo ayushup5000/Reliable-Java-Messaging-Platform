@@ -119,8 +119,8 @@ public class QueueTestCommon {
         if (freeSpace - spaceLeft > 2L << 30) {
             fail("Used more than 1 GB of disk space in " + OS.getTarget() + " during the test, was " + ((freeSpace - spaceLeft) >> 20) / 1024.0 + " GiB");
         }
-
     }
+
     @Before
     public void assumeFinishedNormally() {
         finishedNormally = true;
