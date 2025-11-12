@@ -22,8 +22,8 @@
     <properties>
         <zero.cost.assertions>disabled</zero.cost.assertions>
         <!-- Define the target coverage thresholds as properties -->
-        <jacoco.line.coverage>0.7888</jacoco.line.coverage>
-        <jacoco.branch.coverage>0.6989</jacoco.branch.coverage>
+        <jacoco.line.coverage>0.788</jacoco.line.coverage>
+        <jacoco.branch.coverage>0.713</jacoco.branch.coverage>
     </properties>
 
     <dependencyManagement>
@@ -266,8 +266,8 @@
                     <forkCount>1</forkCount>
                     <!--                    <reuseForks>false</reuseForks>-->
                     <runOrder>hourly</runOrder>
-                    <!-- propagate JPMS flags from parent into unit test JVMs -->
-                    <argLine>${argLine} ${jvm.requiredArgs}</argLine>
+                    <!-- propagate JPMS flags from parent into unit test JVMs along with jacoco agent -->
+                    <argLine>${surefireArgLine} ${jvm.requiredArgs}</argLine>
                 </configuration>
             </plugin>
 
